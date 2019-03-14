@@ -1,0 +1,11 @@
+.startseckill {
+    padding-left: 10px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    background: url(../images/seckillbg.png) repeat-x;
+}
+
+.overtime {
+    float:right;
+}
