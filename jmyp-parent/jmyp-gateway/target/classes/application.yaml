@@ -1,0 +1,63 @@
+server:
+  port: 9999 #服务端口
+spring:
+  application:
+    name: api-gateway #指定服务名
+zuul:
+  routes:
+    user-service: # 这里是路由id，随意写
+      path: /user/** # 这里是映射路径
+      #url: http://127.0.0.1:8081 # 映射路径对应的实际url地址
+      serviceId: web-service #服务的名称
+    news-service:
+      path: /index/**
+      serviceId: web-service
+    search-service:
+      path: /search/**
+      serviceId: search-service
+    item-service:
+      path: /item/**
+      serviceId: item-service
+    auth-service:
+          path: /auth/**
+          serviceId: auth-service
+    cart-service:
+          path: /cart/**
+          serviceId: cart-service
+    order-service:
+          path: /order/**
+          serviceId: order-service
+  retryable: true
+  sensitive-headers:
+
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 # 获取服务列表的周期：5s
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+ribbon:
+  ConnectTimeout: 250 # 连接超时时间(ms)
+  ReadTimeout: 2000 # 通信超时时间(ms)
+  OkToRetryOnAllOperations: true # 是否对所有操作重试
+  MaxAutoRetriesNextServer: 2 # 同一服务不同实例的重试次数
+  MaxAutoRetries: 1 # 同一实例的重试次数
+hystrix:
+  command:
+    default:
+        execution:
+          isolation:
+            thread:
+              timeoutInMillisecond: 6000 # 熔断超时时长：6000ms
+jwt:
+  config:
+    key: czxy
+  filter:
+    allowPaths:
+      - /auth/
+      - /user/
+      - /index/
+      - /search/
+      - /item/

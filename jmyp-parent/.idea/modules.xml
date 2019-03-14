@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jmyp-auth/jmyp-auth.iml" filepath="$PROJECT_DIR$/jmyp-auth/jmyp-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-cart/jmyp-cart.iml" filepath="$PROJECT_DIR$/jmyp-cart/jmyp-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-common/jmyp-common.iml" filepath="$PROJECT_DIR$/jmyp-common/jmyp-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-eureka/jmyp-eureka.iml" filepath="$PROJECT_DIR$/jmyp-eureka/jmyp-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-gateway/jmyp-gateway.iml" filepath="$PROJECT_DIR$/jmyp-gateway/jmyp-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-item/jmyp-item.iml" filepath="$PROJECT_DIR$/jmyp-item/jmyp-item.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-order/jmyp-order.iml" filepath="$PROJECT_DIR$/jmyp-order/jmyp-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-parent.iml" filepath="$PROJECT_DIR$/jmyp-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-pojo/jmyp-pojo.iml" filepath="$PROJECT_DIR$/jmyp-pojo/jmyp-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-search/jmyp-search.iml" filepath="$PROJECT_DIR$/jmyp-search/jmyp-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-service/jmyp-service.iml" filepath="$PROJECT_DIR$/jmyp-service/jmyp-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmyp-task/jmyp-task.iml" filepath="$PROJECT_DIR$/jmyp-task/jmyp-task.iml" />
+    </modules>
+  </component>
+</project>

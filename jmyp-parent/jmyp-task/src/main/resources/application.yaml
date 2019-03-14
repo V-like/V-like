@@ -1,0 +1,23 @@
+server:
+  port: 8089
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jmyp_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 1000
+      test-on-borrow: true
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.22.116:9300
+mybatis:
+  type-aliases-package: com.jmyp.pojo
+mapper:
+  not-empty: false
+  identity: mysql

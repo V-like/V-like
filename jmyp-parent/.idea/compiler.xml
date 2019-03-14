@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jmyp-auth" />
+        <module name="jmyp-cart" />
+        <module name="jmyp-common" />
+        <module name="jmyp-eureka" />
+        <module name="jmyp-gateway" />
+        <module name="jmyp-item" />
+        <module name="jmyp-order" />
+        <module name="jmyp-pojo" />
+        <module name="jmyp-search" />
+        <module name="jmyp-service" />
+        <module name="jmyp-task" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jmyp-auth" target="1.8" />
+      <module name="jmyp-cart" target="1.8" />
+      <module name="jmyp-common" target="1.8" />
+      <module name="jmyp-eureka" target="1.8" />
+      <module name="jmyp-gateway" target="1.8" />
+      <module name="jmyp-item" target="1.8" />
+      <module name="jmyp-order" target="1.8" />
+      <module name="jmyp-parent" target="1.8" />
+      <module name="jmyp-pojo" target="1.8" />
+      <module name="jmyp-search" target="1.8" />
+      <module name="jmyp-service" target="1.8" />
+      <module name="jmyp-task" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
